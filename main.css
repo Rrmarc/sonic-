@@ -10,10 +10,11 @@ body {
 
 .logo {
     /* visibility: hidden; */
+    text-align: center;
     align-items: center;
     justify-content: center;
     position: fixed;
-    top: 130px;
+    /* top: 130px; */
 }
 
 .container {
@@ -49,4 +50,10 @@ img {
     font-size: 20px;
     background-color: blue;
     position: relative;
+}
+
+.instruction {
+    color: #B0CFFD;
+    font-size: 20px;
+    text-shadow: 2px 5px 8px blue;
 }
